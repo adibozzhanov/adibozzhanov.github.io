@@ -13,6 +13,16 @@ Welcome to MyProject's documentation!
    start
 
 
+CODE
+====
+
+.. toctree::
+   :maxdepth: 2
+   :caption: code
+
+   src/mycode
+	     
+
 
 Indices and tables
 ==================
