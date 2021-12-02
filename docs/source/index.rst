@@ -10,6 +10,8 @@ Welcome to MyProject's documentation!
    :maxdepth: 2
    :caption: Contents:
 
+   start
+
 
 
 Indices and tables
