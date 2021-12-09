@@ -14,13 +14,13 @@ class ThingTest(unittest.TestCase):
     def test_mult(self):
 
         result = mult(2,3)
-        self.assertEquals(result,6)
+        self.assertEqual(result,6)
 
 
     def test_div(self):
 
         result = div(6,2)
-        self.assertEquals(3,result)
+        self.assertEqual(3,result)
         
 
     
