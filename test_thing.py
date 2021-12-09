@@ -1,5 +1,5 @@
 import unittest
-from thing import add, mult
+from thing import add, mult, div
 
 
 
@@ -15,6 +15,12 @@ class ThingTest(unittest.TestCase):
 
         result = mult(2,3)
         self.assertEquals(result,6)
+
+
+    def test_div(self):
+
+        result = div(6,2)
+        self.assertEquals(3,result)
         
 
     
