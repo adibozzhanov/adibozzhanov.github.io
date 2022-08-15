@@ -1,0 +1,26 @@
+Tutorials
+=========
+
+.. note::
+
+   I often build some small projects that simply cannot be put as a separate "project".
+   A lot of these end up being some really good tutoring material that I use for private
+   tutoring. Here you will see a collection of small projects explained in a meaningful
+   and accessible way which will hopefully help you understand programming basics better.
+
+
+
+
+As you can see I have separated them by language. The 4 languages: Python, Haskell, C and Java
+are required by my position as a programming tutor at UCL. It is important to mention that, these
+tutorials are heavilly biased towards Python and C since I just simply enjoy those languages more.
+
+.. toctree::
+   :maxdepth: 1
+   :caption: Contents:
+
+   tutorials/python
+   tutorials/c
+   tutorials/haskell
+   tutorials/java
+   tutorials/git

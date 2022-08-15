@@ -1,0 +1,21 @@
+
+
+Adi Bozzhanov
+=============
+
+
+.. note::
+
+   Heyo I'm Adi, and this is my website. This is the place for all of my projects, news
+   and some general info about me. I also include my tutorials here if anyone is interested, so
+   do give it a look. Nanana
+
+.. toctree::
+   :maxdepth: 1
+   :caption: Contents
+
+
+   sections/about
+   sections/experience
+   sections/projects
+   sections/tutorials

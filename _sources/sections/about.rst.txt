@@ -1,0 +1,45 @@
+
+About Me:
+=========
+
+
+
+Education
+---------
+
+.. tab-set::
+
+
+   .. tab-item:: A-Levels
+
+      .. grid::
+
+	 .. grid-item::
+
+	    I will write some description of what it is and stuff but for now i will just leave it
+	    as is
+
+
+	 .. grid-item::
+
+	    **Results:**
+
+	    +----------------+------------+
+	    | A-Level        |  Grade     |
+	    +================+============+
+	    | Maths          | A\*        |
+	    +----------------+------------+
+	    | Further Maths  | A\*        |
+	    +----------------+------------+
+	    |Computer Science| A\*        |
+	    +----------------+------------+
+	    | Physics        | A          |
+	    +----------------+------------+
+	    | Russian        | A          |
+	    +----------------+------------+
+
+
+   .. tab-item:: BSc Computer Science
+
+
+      University College London
