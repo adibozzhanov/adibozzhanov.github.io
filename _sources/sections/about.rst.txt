@@ -13,6 +13,14 @@ Education
 
       .. grid::
 
+
+	 .. grid-item::
+
+	    .. image:: ../images/oic-logo.svg
+	       :width: 400
+
+
+
 	 .. grid-item:: Oxford International College
 
 
@@ -43,24 +51,21 @@ Education
 	    | Russian        | A          |
 	    +----------------+------------+
 
-	 .. grid-item::
-
-	    .. image:: ../images/oic-logo.svg
-	       :width: 400
-
    .. tab-item:: BSc Computer Science
 
       .. grid::
+
+	 .. grid-item::
+
+	    .. image:: ../images/ucl-logo.png
+	       :width: 400
 
 	 .. grid-item:: University College London
 
 	    :bdg-primary:`ongoing`
 
 
-	 .. grid-item::
 
-	    .. image:: ../images/ucl-logo.png
-	       :width: 400
 
 
 Experience
