@@ -16,8 +16,7 @@ Education
 
 	 .. grid-item:: Oxford International College
 
-	    .. image:: ../images/oic-logo.svg
-	       :width: 400
+
 
 	    Some temporary text for now
 
@@ -27,7 +26,7 @@ Education
 
 
 
-	 .. grid-item::
+
 
 	    **Results:**
 
@@ -46,11 +45,22 @@ Education
 	    +----------------+------------+
 
 
+	 .. grid-item::
+
+	    .. image:: ../images/oic-logo.svg
+	       :width: 400
+
+
    .. tab-item:: BSc Computer Science
 
       .. grid::
 
 	 .. grid-item:: University College London
+
+	    :bdg-primary:`ongoing`
+
+
+	 .. grid-item::
 
 	    .. image:: ../images/ucl-logo.png
 	       :width: 400
