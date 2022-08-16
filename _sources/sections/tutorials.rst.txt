@@ -1,5 +1,8 @@
-Tutorials
-=========
+:far:`alien-8bit` Tutorials
+============================
+
+
+:fas:`fa-alicorn fa-light`
 
 .. note::
 

@@ -1,2 +1,2 @@
-My Projects
-===========
+:octicon:`project` My Projects
+================================

@@ -24,13 +24,6 @@
       Some temporary text for now
 
 
-
-
-
-
-
-
-
       **Results:**
 
       +----------------+------------+
@@ -64,8 +57,8 @@
 
 
 
-:octicon:`graph` Experience
----------------------------
+:octicon:`organization` Experience
+-----------------------------------
 
 
 .. tab-set::
