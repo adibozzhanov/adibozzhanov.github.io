@@ -9,7 +9,6 @@ Education
 
 .. tab-set::
 
-
    .. tab-item:: A-Levels
 
       .. grid::
@@ -44,12 +43,10 @@ Education
 	    | Russian        | A          |
 	    +----------------+------------+
 
-
 	 .. grid-item::
 
 	    .. image:: ../images/oic-logo.svg
 	       :width: 400
-
 
    .. tab-item:: BSc Computer Science
 
@@ -64,3 +61,23 @@ Education
 
 	    .. image:: ../images/ucl-logo.png
 	       :width: 400
+
+
+Experience
+----------
+
+
+.. tab-set::
+
+   .. tab-item:: Developer
+
+      Temp
+
+   .. tab-item:: Tutor
+
+      Temp
+
+
+   .. tab-item:: Reporter
+
+      Temp
