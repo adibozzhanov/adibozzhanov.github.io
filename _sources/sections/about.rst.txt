@@ -1,31 +1,27 @@
 
-About Me:
-=========
+:octicon:`person` About Me
+==========================
 
 
 
-Education
----------
+:octicon:`mortar-board` Education
+----------------------------------
 
 .. tab-set::
 
    .. tab-item:: A-Levels
 
-      .. grid::
-
-
-	 .. grid-item::
-
-	    .. image:: ../images/oic-logo.svg
-	       :width: 400
 
 
 
-	 .. grid-item:: Oxford International College
+
+
+      .. image:: ../images/oic-logo.svg
+	 :width: 400
 
 
 
-	    Some temporary text for now
+      Some temporary text for now
 
 
 
@@ -35,21 +31,21 @@ Education
 
 
 
-	    **Results:**
+      **Results:**
 
-	    +----------------+------------+
-	    | A-Level        |  Grade     |
-	    +================+============+
-	    | Maths          | A\*        |
-	    +----------------+------------+
-	    | Further Maths  | A\*        |
-	    +----------------+------------+
-	    |Computer Science| A\*        |
-	    +----------------+------------+
-	    | Physics        | A          |
-	    +----------------+------------+
-	    | Russian        | A          |
-	    +----------------+------------+
+      +----------------+------------+
+      | A-Level        |  Grade     |
+      +================+============+
+      | Maths          | A\*        |
+      +----------------+------------+
+      | Further Maths  | A\*        |
+      +----------------+------------+
+      |Computer Science| A\*        |
+      +----------------+------------+
+      | Physics        | A          |
+      +----------------+------------+
+      | Russian        | A          |
+      +----------------+------------+
 
    .. tab-item:: BSc Computer Science
 
@@ -68,8 +64,8 @@ Education
 
 
 
-Experience
-----------
+:octicon:`graph` Experience
+---------------------------
 
 
 .. tab-set::
