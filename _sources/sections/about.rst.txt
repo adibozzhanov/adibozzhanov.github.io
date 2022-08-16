@@ -14,10 +14,17 @@ Education
 
       .. grid::
 
-	 .. grid-item::
+	 .. grid-item:: Oxford International College
 
-	    I will write some description of what it is and stuff but for now i will just leave it
-	    as is
+	    .. image:: ../images/oic-logo.svg
+	       :width: 400
+
+	    Some temporary text for now
+
+
+
+
+
 
 
 	 .. grid-item::
@@ -41,5 +48,9 @@ Education
 
    .. tab-item:: BSc Computer Science
 
+      .. grid::
 
-      University College London
+	 .. grid-item:: University College London
+
+	    .. image:: ../images/ucl-logo.png
+	       :width: 400
