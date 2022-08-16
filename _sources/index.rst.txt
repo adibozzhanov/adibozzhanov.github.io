@@ -31,7 +31,7 @@
 ======================
 
 
-.. grid:: 4
+.. grid:: 1 1 2 4
    :gutter: 1
    :class-container: sd-d-flex-row sd-d-flex-column
 
