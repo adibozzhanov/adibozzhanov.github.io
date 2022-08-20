@@ -52,26 +52,3 @@
 	 .. grid-item:: University College London
 
 	    :bdg-primary:`ongoing`
-
-
-
-
-
-:octicon:`organization` Experience
------------------------------------
-
-
-.. tab-set::
-
-   .. tab-item:: Developer
-
-      Temp
-
-   .. tab-item:: Tutor
-
-      Temp
-
-
-   .. tab-item:: Reporter
-
-      Temp

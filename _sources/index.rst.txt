@@ -1,5 +1,3 @@
-.. |linked-in| image:: images/linked-in.svg
-	       :height: 15px
 
 
 
