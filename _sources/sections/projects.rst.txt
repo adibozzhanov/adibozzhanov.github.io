@@ -2,6 +2,83 @@
 ================================
 
 
-.. admonition:: Under construction...
+.. grid:: 1 1 2 4
+   :gutter: 1
+   :class-container: sd-d-flex-row sd-d-flex-column
 
-   Coming Soon!
+   .. grid-item::
+      :class: sd-text-center
+
+      .. card::
+	 :link: https://github.com/adibozzhanov/Sorting-Visualiser
+	 :img-top: ../images/sorting.gif
+
+
+
+
+	 **Sorting Visualiser**
+
+
+
+
+   .. grid-item::
+      :class: sd-text-center
+
+      .. card::
+	 :link: https://github.com/adibozzhanov/Pathfinding-visualiser
+	 :img-top: ../images/pathfinding.gif
+
+	 **Path Finding Visualiser**
+
+
+
+   .. grid-item::
+      :class: sd-text-center
+
+      .. card::
+	 :link: https://github.com/adibozzhanov/Projects
+	 :img-top: ../images/assembly.gif
+
+
+	 **CIE Assembler**
+
+   .. grid-item::
+      :class: sd-text-center
+
+      .. card::
+	 :link: https://github.com/adibozzhanov/snakes-to-images
+	 :img-top: ../images/snakes.gif
+
+	 **Snakes**
+
+
+
+   .. grid-item::
+      :class: sd-text-center
+
+      .. card::
+	 :link:  https://3-braincellss.github.io/index.html
+	 :img-top: ../images/shell.gif
+
+	 **COMP0010 Shell**
+
+   .. grid-item::
+      :class: sd-text-center
+
+      .. card::
+	 :link: https://github.com/adibozzhanov/LeProgram
+	 :img-top: ../images/oneszeros.png
+
+
+	 **LeProgram**
+
+
+
+   .. grid-item::
+      :class: sd-text-center
+
+      .. card::
+	 :link: https://github.com/adibozzhanov/Pyraminx-Solver
+	 :img-top: ../images/pyraminx.png
+
+	 **Pyraminx Solver**

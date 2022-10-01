@@ -6,6 +6,8 @@
 =============================
 
 
+
+
 .. note::
 
 
@@ -22,6 +24,49 @@
    sections/about
    sections/projects
    sections/tutorials
+
+
+
+:octicon:`insights` You should check out
+========================================
+
+
+.. grid:: 1 1 2 4
+   :gutter: 1
+   :class-container: sd-d-flex-row sd-d-flex-column
+
+   .. grid-item::
+      :class: sd-text-center
+
+      .. card::
+
+
+
+	 +++
+	 About Me
+
+
+   .. grid-item::
+      :class: sd-text-center
+
+      .. card::
+
+
+
+	 +++
+	 Projects
+
+
+
+   .. grid-item::
+      :class: sd-text-center
+
+      .. card::
+
+
+
+	 +++
+	 Tutorials
 
 
 
