@@ -1,2 +1,59 @@
 :octicon:`person` About Me
 ==========================
+
+
+Heyo! I'm Adi, currently a final year computer science student at UCL.
+
+
+
+:octicon:`list-unordered` Interesting facts
+--------------------------------------------
+
+
+
+.. grid:: 1 1 2 4
+   :gutter: 1
+   :class-container: sd-d-flex-row sd-d-flex-column
+
+   .. grid-item::
+
+
+      .. card::
+	 :img-top: ../images/fedora_logo.png
+
+	 My OS of choice <3
+
+
+
+
+   .. grid-item::
+
+      .. card::
+	 :img-top: ../images/emacs.png
+
+	 I'm an Emacs user...
+
+
+
+
+
+   .. grid-item::
+
+
+      .. card::
+	 :img-top: ../images/rubiks.png
+
+	 My 3x3 PB is 11.98
+
+
+
+
+
+
+   .. grid-item::
+
+
+      .. card::
+	 :img-top: ../images/dota.png
+
+	 I have over 5000 hours in dota... pls send help
