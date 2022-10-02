@@ -31,7 +31,6 @@
 	 **Path Finding Visualiser**
 
 
-
    .. grid-item::
       :class: sd-text-center
 
