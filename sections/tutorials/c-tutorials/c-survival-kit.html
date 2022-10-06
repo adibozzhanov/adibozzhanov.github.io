@@ -326,17 +326,7 @@
 </div>
 </div>
 <div class="literal-block-wrapper docutils container" id="id9">
-<div class="code-block-caption"><span class="caption-text">Ways to create a string</span><a class="headerlink" href="#id9" title="Permalink to this code">¶</a></div>
-<div class="highlight-c notranslate"><div class="highlight"><pre><span></span><span class="c1">// keep in mind that strings are not JUST character arrays</span>
-<span class="c1">// the last element of them MUST be a \0 or a null character</span>
-
-<span class="kt">char</span><span class="w"> </span><span class="o">*</span><span class="n">s</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="s">"wabulabudabdab"</span><span class="p">;</span><span class="w"></span>
-<span class="kt">char</span><span class="w"> </span><span class="n">str</span><span class="p">[]</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="s">"MUDA MUDA MUDA...."</span><span class="p">;</span><span class="w"></span>
-</pre></div>
-</div>
-</div>
-<div class="literal-block-wrapper docutils container" id="id10">
-<div class="code-block-caption"><span class="caption-text">Arrays</span><a class="headerlink" href="#id10" title="Permalink to this code">¶</a></div>
+<div class="code-block-caption"><span class="caption-text">Arrays</span><a class="headerlink" href="#id9" title="Permalink to this code">¶</a></div>
 <div class="highlight-c notranslate"><div class="highlight"><pre><span></span><span class="c1">// declare a variable</span>
 <span class="kt">int</span><span class="w"> </span><span class="n">arr</span><span class="p">[</span><span class="mi">10</span><span class="p">];</span><span class="w"></span>
 
@@ -355,8 +345,8 @@
 </pre></div>
 </div>
 </div>
-<div class="literal-block-wrapper docutils container" id="id11">
-<div class="code-block-caption"><span class="caption-text">Pointers</span><a class="headerlink" href="#id11" title="Permalink to this code">¶</a></div>
+<div class="literal-block-wrapper docutils container" id="id10">
+<div class="code-block-caption"><span class="caption-text">Pointers</span><a class="headerlink" href="#id10" title="Permalink to this code">¶</a></div>
 <div class="highlight-c notranslate"><div class="highlight"><pre><span></span><span class="c1">// create a pointer</span>
 <span class="kt">int</span><span class="o">*</span><span class="w"> </span><span class="n">x</span><span class="p">;</span><span class="w"></span>
 
@@ -398,8 +388,8 @@
 </pre></div>
 </div>
 </div>
-<div class="literal-block-wrapper docutils container" id="id12">
-<div class="code-block-caption"><span class="caption-text">Memory allocation</span><a class="headerlink" href="#id12" title="Permalink to this code">¶</a></div>
+<div class="literal-block-wrapper docutils container" id="id11">
+<div class="code-block-caption"><span class="caption-text">Memory allocation</span><a class="headerlink" href="#id11" title="Permalink to this code">¶</a></div>
 <div class="highlight-c notranslate"><div class="highlight"><pre><span></span><span class="c1">// integer array but dynamically</span>
 <span class="kt">int</span><span class="w"> </span><span class="o">*</span><span class="n">arr</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="p">(</span><span class="kt">int</span><span class="w"> </span><span class="o">*</span><span class="p">)</span><span class="n">malloc</span><span class="p">(</span><span class="mi">100</span><span class="w"> </span><span class="o">*</span><span class="w"> </span><span class="k">sizeof</span><span class="p">(</span><span class="kt">int</span><span class="p">));</span><span class="w"></span>
 
@@ -438,8 +428,8 @@
 
 <h2 id="useful-info">Useful info<a class="headerlink" href="#useful-info" title="Permalink to this headline">¶</a></h2>
 <p>Here is a table that is good remember by heart. It’s a mini version of other tables that you will find online, and I only put there stuff that I can remember myself.</p>
-<table id="id13">
-<caption><span class="caption-text">Datatypes</span><a class="headerlink" href="#id13" title="Permalink to this table">¶</a></caption>
+<table id="id12">
+<caption><span class="caption-text">Datatypes</span><a class="headerlink" href="#id12" title="Permalink to this table">¶</a></caption>
 <colgroup>
 <col style="width: 25%"/>
 <col style="width: 25%"/>
@@ -553,8 +543,8 @@ Type "apropos word" to search for commands related to "word"...
 </pre></div>
 </div>
 <p>This is where we will debug our code. Use this table to reference useful commands:</p>
-<table id="id14">
-<caption><span class="caption-text">GDB commands</span><a class="headerlink" href="#id14" title="Permalink to this table">¶</a></caption>
+<table id="id13">
+<caption><span class="caption-text">GDB commands</span><a class="headerlink" href="#id13" title="Permalink to this table">¶</a></caption>
 <colgroup>
 <col style="width: 20%"/>
 <col style="width: 80%"/>
@@ -571,7 +561,7 @@ Type "apropos word" to search for commands related to "word"...
 <tr class="row-odd"><td><p><code class="docutils literal notranslate"><span class="pre">run</span></code></p></td>
 <td><p>Run your code</p></td>
 </tr>
-<tr class="row-even"><td><p><code class="docutils literal notranslate"><span class="pre">Break</span> <span class="pre">&lt;line_num&gt;</span></code></p></td>
+<tr class="row-even"><td><p><code class="docutils literal notranslate"><span class="pre">break</span> <span class="pre">&lt;line_num&gt;</span></code></p></td>
 <td><p>Set a break point at a specific line number. Once you start the program, debugger will
 stop and prompt for action every single time your code happens to reach that line</p></td>
 </tr>

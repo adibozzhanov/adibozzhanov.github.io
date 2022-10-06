@@ -116,14 +116,6 @@ Most basic snippets you must know
    char str[] = "MUDA MUDA MUDA....";
 
 
-.. code-block:: c
-   :caption: Ways to create a string
-
-   // keep in mind that strings are not JUST character arrays
-   // the last element of them MUST be a \0 or a null character
-
-   char *s = "wabulabudabdab";
-   char str[] = "MUDA MUDA MUDA....";
 
 .. code-block:: c
    :caption: Arrays
@@ -377,7 +369,7 @@ This is where we will debug our code. Use this table to reference useful command
       - ``run``
       - Run your code
    *
-      - ``Break <line_num>``
+      - ``break <line_num>``
       - Set a break point at a specific line number. Once you start the program, debugger will
 	stop and prompt for action every single time your code happens to reach that line
    *
