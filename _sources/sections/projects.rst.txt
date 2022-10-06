@@ -6,6 +6,16 @@
    :gutter: 1
    :class-container: sd-d-flex-row sd-d-flex-column
 
+
+   .. grid-item::
+      :class: sd-text-center
+
+      .. card::
+	 :link:  https://3-braincellss.github.io/index.html
+	 :img-top: ../images/shell.gif
+
+	 **Bash-Like Shell**
+
    .. grid-item::
       :class: sd-text-center
 
@@ -52,14 +62,7 @@
 
 
 
-   .. grid-item::
-      :class: sd-text-center
 
-      .. card::
-	 :link:  https://3-braincellss.github.io/index.html
-	 :img-top: ../images/shell.gif
-
-	 **COMP0010 Shell**
 
    .. grid-item::
       :class: sd-text-center

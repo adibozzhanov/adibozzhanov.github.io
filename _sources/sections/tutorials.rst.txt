@@ -1,26 +1,41 @@
 :octicon:`book` Tutorials
 ==========================
 
-.. note::
-
-   I often build some small projects that simply cannot be put as a separate "project".
-   A lot of these end up being some really good tutoring material that I use for private
-   tutoring. Here you will see a collection of small projects explained in a meaningful
-   and accessible way which will hopefully help you understand programming basics better.
 
 
+===
+ C
+===
+
+.. card-carousel:: 2
 
 
-As you can see I have separated them by language. The 4 languages: Python, Haskell, C and Java
-are required by my position as a programming tutor at UCL. It is important to mention that, these
-tutorials are heavilly biased towards Python and C since I just simply enjoy those languages more.
 
-.. toctree::
-   :maxdepth: 1
-   :caption: Contents:
+   .. card::
+      :img-top: ../images/c-logo.png
+      :link: tutorials/c-tutorials/c-survival-kit
+      :link-type: doc
+      :width: 25%
 
-   tutorials/python
-   tutorials/c
-   tutorials/haskell
-   tutorials/java
-   tutorials/git
+      **C-Survival-Kit**
+
+======
+Python
+======
+
+.. card-carousel:: 2
+
+   .. card::
+
+      Coming soon...
+
+
+====
+Misc
+====
+
+.. card-carousel:: 2
+
+   .. card::
+
+      Coming soon...

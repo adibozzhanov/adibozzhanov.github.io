@@ -1,7 +1,0 @@
-Git
-===
-
-
-.. important::
-
-   Coming Soon!
