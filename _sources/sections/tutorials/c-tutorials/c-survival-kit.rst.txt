@@ -1,0 +1,411 @@
+
+==============
+C-Survival-Kit
+==============
+
+
+Most basic snippets you must know
+=================================
+
+.. code-block:: c
+   :caption: For-loop
+
+   // You should be able to type this blindfolded
+
+   for (int i = 0; i < n; i ++){
+      // code goes here
+   }
+
+.. code-block:: c
+   :caption: Double-for-loop
+
+   // This too ofcourse...
+
+   for (int i = 0; i < n; i ++){
+      for (int j = 0; j < n; j++){
+          // code goes here
+      }
+   }
+
+
+.. code-block:: c
+   :caption: Half-double-for-loop
+
+   // keep in mind that you can set j to i in the inner for loop
+   // that way j will not take any previous values of i
+
+   for (int i = 0; i < n; i ++){
+      for (int j = i; j < n; j++){
+          // code goes here
+      }
+   }
+
+.. code-block:: c
+   :caption: Fixed point iteration
+
+   // Apply a function until there is no change
+
+   while(1){
+      y = f(x);
+      if (y == x){
+          break;
+      }
+      x = y;
+   }
+
+.. code-block:: c
+   :caption: Fixed point iteration (do while)
+
+   // Apply a function until there is no change, BUT more elegant
+
+   do{
+      x = y;
+      y = f(x);
+   }while(y != x);
+
+
+.. code-block:: c
+   :caption: Literally every recursive function
+
+   // General structure of a recursive function
+
+   int rec(int arg) {
+
+      if (base_condition) {
+          // base case
+
+          return 0;
+      }
+
+      // general case
+
+      // recursive calls
+      int y = rec(stuff);
+
+      // then you do something with y
+
+      return otherStuff;
+   }
+
+
+.. code-block:: c
+   :caption: Type declaration
+
+   // typedef <existing type> alias;
+
+   typedef struct _point { // if not an alias then you have to do struct _point everywhere
+      int x;
+      int y;
+
+   } point; // <----- ALIAS
+
+
+   point p;
+
+   p.x = 3;
+   p.y = 4;
+
+
+.. code-block:: c
+   :caption: Ways to create a string
+
+   // keep in mind that strings are not JUST character arrays
+   // the last element of them MUST be a \0 (null character)
+
+   char *s = "wabulabudabdab";
+   char str[] = "MUDA MUDA MUDA....";
+
+
+.. code-block:: c
+   :caption: Ways to create a string
+
+   // keep in mind that strings are not JUST character arrays
+   // the last element of them MUST be a \0 or a null character
+
+   char *s = "wabulabudabdab";
+   char str[] = "MUDA MUDA MUDA....";
+
+.. code-block:: c
+   :caption: Arrays
+
+   // declare a variable
+   int arr[10];
+
+   // initialise everything to 0
+   for(int i = 0; i < 10; i++){
+      arr[i] = 0;
+   }
+
+   // you can also do this
+   int arr2[] = {1,2,3};
+
+   // This... works.... (LOL)
+   5[arr] = 16;
+   // arr[5] = (arr + 5) = (5 + arr) = 5[arr]
+   // DON'T DO THIS
+
+
+.. code-block:: c
+   :caption: Pointers
+
+   // create a pointer
+   int* x;
+
+   int y = 6;
+
+   //                 y
+   // &:  address->[value]
+   //        ^
+   //
+   // always spits out an address of whatever you give it
+   // if y is a pointer then &y is a pointer to a pointer
+   x = &y;
+
+
+   //                 z
+   // *:  address->[value]
+   //                 ||
+   //                 \/
+   //            [other value]
+   //                  ^
+   //
+   // interprets the content of the variable as a pointer and dereferences it
+   int z = *x;
+
+
+   // pointer to a struct
+   point* p;
+
+   // if you want to set values of a struct but you only have a pointer
+   // you can use arrows
+   p->x = 1;
+   p->y = 2;
+
+   // or
+   point actualPoint = *p;
+
+   actualPoint.x = 1;
+   actualPoint.y = 2;
+
+
+
+.. code-block:: c
+   :caption: Memory allocation
+
+   // integer array but dynamically
+   int *arr = (int *)malloc(100 * sizeof(int));
+
+   // you can still use indexing syntax
+   arr[0] = 15;
+
+   // 2d array dynamically
+   int *arr2 = (int *)malloc(rows * columns * sizeof(int));
+
+   // accessing an element in such an array
+   arr2[1 * columns + 2] = 0;
+
+   // row index 1 column index 2
+
+   // after we assigned it
+   // x x x x x x x ...
+   // x x 0 x x x x ...
+   // x x x x x x x ...
+   // x x x x x x x ...
+   // ...
+
+   // Dynamically allocate a struct
+   point *p = (point *)malloc(sizeof(point));
+   p->x = 1;
+   p->y = 2;
+
+
+   // free the memory
+   free(arr);
+   free(arr2);
+   free(p);
+
+
+
+Useful info
+===========
+
+Here is a table that is good remember by heart. It's a mini version of other tables that you will find online, and I only put there stuff that I can remember myself.
+
+
+.. list-table:: Datatypes
+   :header-rows: 1
+
+   *
+      - Datatype
+      - Size
+      - Range
+      - Precision
+   *
+      - char
+      - 1 byte
+      - -128 to 127
+      - N/A
+   *
+      - short
+      - 2 bytes
+      - -32768 to 32767
+      - N/A
+   *
+      - int
+      - 4 bytes
+      - +-2 billion(ish)
+      - N/A
+
+   *
+      - long
+      - 8 bytes
+      - +- a lot...
+      - N/A
+   *
+      - float
+      - 4 bytes
+      - I cba
+      - 6 d.p.
+   *
+      - double
+      - 8 bytes
+      - typing this
+      - 15 d.p.
+
+   *
+      - long double
+      - 10 bytes
+      - `google it... <https://www.tutorialspoint.com/cprogramming/c_data_types.htm>`_
+      - 19 d.p.
+
+.. note::
+   You can slap ``unsigned`` infront of all integer like types and shift ranges to positive numbers only.
+
+
+
+Other stuff you have to remember:
+
+- Ascii(A) = 65 dec
+- Ascii(a) = 97 dec
+- Ascii(<space>) = 32 dec
+- Ascii(0) = 48 dec
+- 2^10 = 1024
+- 2^15 = 32768
+- 2^16 = 65536
+- 2^32 = 4 billion(ish)
+
+
+
+
+
+Tools you will need
+===================
+
+
+Code formatter
+--------------
+
+Honestly, no clue what package to use in VS code since I'm not using it...
+Pls send me a link if you find one so I can slap it here.
+
+
+Debugger
+--------
+
+Whatever you do wrong to your code C, it will spit out a single error all the time (SEGFAULT).
+That's because once the code is compiled the information about the source code is lost.
+The interpreter that is running your C code has no way to identify what the hell is wrong with it.
+For that we will need to run our compiler with a special command:
+
+.. code-block::
+
+   gcc -g source-file.c
+
+This will leave information about the source code along with the compiled file.
+Now that we have our smart compiled file we can play with is using a debugger.
+
+
+Using GDB
+.........
+
+Your compiled file should be called something like ``a.out`` or whatever you named it.
+Run the gdb command on the compiled file:
+
+.. code-block::
+
+   gdb a.out
+
+
+this will open a prompt that will look like this:
+
+.. code-block:: none
+
+   GNU gdb (GDB) Fedora 12.1-1.fc35
+   Copyright (C) 2022 Free Software Foundation, Inc.
+   License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>
+   This is free software: you are free to change and redistribute it.
+   There is NO WARRANTY, to the extent permitted by law.
+   Type "show copying" and "show warranty" for details.
+   This GDB was configured as "x86_64-redhat-linux-gnu".
+   Type "show configuration" for configuration details.
+   For bug reporting instructions, please see:
+   <https://www.gnu.org/software/gdb/bugs/>.
+   Find the GDB manual and other documentation resources online at:
+   <http://www.gnu.org/software/gdb/documentation/>.
+
+   For help, type "help".
+   Type "apropos word" to search for commands related to "word"...
+   "/home/mow/Documents/projects/web-portfolio/source/sections/tutorials/c-tutorials/test.c": not in executable format: file format not recognized
+   (gdb)
+
+
+This is where we will debug our code. Use this table to reference useful commands:
+
+
+.. list-table:: GDB commands
+   :widths: 20 80
+   :header-rows: 1
+
+
+   *
+      - Command
+      - Explanation
+   *
+      - ``quit``
+      - Quit the debugger
+   *
+      - ``run``
+      - Run your code
+   *
+      - ``Break <line_num>``
+      - Set a break point at a specific line number. Once you start the program, debugger will
+	stop and prompt for action every single time your code happens to reach that line
+   *
+      - ``l``
+      - Show code that is currently next to where you stopped.
+   *
+      - ``l <line_number>``
+      - Show code that is next to the line number you entered
+   *
+      - ``print <variable_name>``
+      - print the current value of a variable
+   *
+      - ``c``
+      - Continue execution until next breakpoint or until the program stops
+   *
+      - ``s``
+      - Execute 1 next step.
+   *
+      - ``n``
+      - Keep executing untl the code reaches next line
+   *
+      - ``bt``
+      - Backtrack - show function nesting.
+	(print backtrace of all stack frames is the proper way to say it)
+
+
+Basically use this table. If you already have a segfault then just run it and the program will stop wherever the segfault is anyway and you can do ``bt``, check values of variables and stuff
+
+If you want the program to stop at a specific line set a breakpoint there and then run.
+
+If you want to execute your code line by line, set a breakpoint at the main function, run it, and spam s or n.
